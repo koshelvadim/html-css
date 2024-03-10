@@ -1,47 +1,47 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    border: 1px solid cornflowerblue;
+  text-decoration: none;
+  border: 1px solid cornflowerblue;
 
-    padding: 5px;
-    margin: 5px;
+  padding: 5px;
+  margin: 5px;
 
-    transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 a:hover {
-    background-color: cornflowerblue;
-    color: #fff;
+  background-color: cornflowerblue;
+  color: #fff;
 }
 
 .nav-bar {
-    color: cornflowerblue;
-    font-size: 16px;
-    line-height: 20px;
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .title-h1 {
-    color: #222222;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: bold;
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
 }
 
 .title-h2 {
-    color: coral;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 80px;
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
 }
 
 .paragraph {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    color: #7D7987;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
 }
