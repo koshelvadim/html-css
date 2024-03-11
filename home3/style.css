@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Gilroy-SemiBold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 84px;
+}
+
+.header__logo {
+  margin-right: 500px;
+}
+
+.header__link {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+
+.header__link.active {
+  color: #f25822;
+}
+
+.main {
+  margin-bottom: 162px;
+}
+
+.main__contant {
+}
+
+.main__title {
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  margin-bottom: 17px;
+}
+
+.main__text {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #888888;
+
+  margin-bottom: 37px;
+}
+
+.button {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #aaaaaa;
+  border: none;
+  background-color: #fff;
+
+  margin-right: 72px;
+}
+
+.button.active {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px #f2582233;
+  padding: 15px 35px;
+}
+
+.brand {
+  margin-top: 97px;
+  margin-bottom: 96px;
+}
