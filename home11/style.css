@@ -53,6 +53,11 @@ body {
   align-items: center;
 }
 
+.brand__img {
+  max-width: 800px;
+  width: 50%;
+}
+
 .brand__text {
   position: relative;
 }
@@ -63,7 +68,7 @@ body {
   top: 0;
   left: -20px;
   width: 12px;
-  height: 92px;
+  height: 100%;
   z-index: 10;
   background-color: #ff6a6a;
 }
@@ -173,6 +178,10 @@ main {
 
 .products__item:hover {
   filter: brightness(80%);
+}
+
+.products__item-img {
+  width: 100%;
 }
 
 .products__item-box {
