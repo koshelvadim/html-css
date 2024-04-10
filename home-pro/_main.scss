@@ -1,0 +1,48 @@
+.main {
+    position: relative;
+    background-image: url(img/main_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 665px;
+    margin-bottom: 98px;
+
+    &__heading {
+        display: flex;
+        flex-direction: column;
+
+        border-left: 12px solid #f16d7f;
+        padding-right: 12px;
+
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+
+
+
+        &-title {
+            font-size: 60px;
+            line-height: 1.2;
+            font-weight: 900;
+            letter-spacing: 0.025em;
+            color: #222222;
+            margin-left: 12px;
+        }
+
+        &-subtitle {
+            font-size: 40px;
+            margin-left: 12px;
+        }
+
+        &-subtitle span {
+            color: #f16d7f;
+        }
+    }
+}
+
+.center-fluid {
+    @include center-fluid;
+}
+
+
+

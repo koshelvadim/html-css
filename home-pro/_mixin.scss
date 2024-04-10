@@ -1,0 +1,19 @@
+@mixin center {
+    padding-left: calc(50% - $widthSite / 2);
+    padding-right: calc(50% - $widthSite / 2);
+}
+
+@mixin center-fluid {
+    padding-left: calc(50% - $widthFluidSite / 2);
+    padding-right: calc(50% - $widthFluidSite / 2);
+}
+
+@mixin d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin transition {
+    transition: all .3s ease;
+}
