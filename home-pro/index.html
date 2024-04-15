@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <!-- Font-awesome -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
     <!-- My style -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -28,7 +28,62 @@
             <label for="search" class="nav__left-button btn">
               Browse
               <i class="fa fa-caret-down" aria-hidden="true"></i>
-              <div class="browse-dropdown">
+              <div class="dropdown-menu">
+                <div class="dropdown__item">
+                  <h3 class="dropdown__item-title">Women</h3>
+                  <a href="#" class="dropdown__item-link">Dresses</a>
+                  <a href="#" class="dropdown__item-link">Tops</a>
+                  <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                  <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                  <a href="#" class="dropdown__item-link">Blazers</a>
+                  <a href="#" class="dropdown__item-link">Denim</a>
+                  <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                  <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                  <a href="#" class="dropdown__item-link">Accessories </a>
+                  <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                  <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                  <a href="#" class="dropdown__item-link">Nightwear</a>
+                  <a href="#" class="dropdown__item-link">Shoes</a>
+                  <a href="#" class="dropdown__item-link">Beauty</a>
+                </div>
+                <div class="dropdown__item">
+                  <h3 class="dropdown__item-title">Men</h3>
+                  <a href="#" class="dropdown__item-link">Tees/Tank tops</a>
+                  <a href="#" class="dropdown__item-link">Shirts/Polos</a>
+                  <a href="#" class="dropdown__item-link">Sweaters</a>
+                  <a href="#" class="dropdown__item-link"
+                    >Sweatshirts/Hoodies</a
+                  >
+                  <a href="#" class="dropdown__item-link">Blazers</a>
+                  <a href="#" class="dropdown__item-link">Jackets/vests</a>
+                </div>
+              </div>
+            </label>
+            <input
+              id="search"
+              class="nav__left-search"
+              type="search"
+              placeholder="Search for Item..."
+            />
+            <div class="nav__left-searchbox">
+              <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="nav__right">
+          <a href="#"
+            ><img src="img/basket.png" alt="basket" class="nav__right-basket"
+          /></a>
+          <a href="#" class="nav__right-button btn">
+            My Account<i class="fa fa-caret-down" aria-hidden="true"></i>
+          </a>
+        </div>
+      </nav>
+      <div class="menu center">
+        <ul class="menu__box">
+          <li class="menu__box-list">
+            <a href="#" class="menu__box-link">Home</a>
+            <div class="dropdown-menu">
               <div class="dropdown__item">
                 <h3 class="dropdown__item-title">Women</h3>
                 <a href="#" class="dropdown__item-link">Dresses</a>
@@ -48,38 +103,238 @@
               </div>
               <div class="dropdown__item">
                 <h3 class="dropdown__item-title">Men</h3>
-                <a href="#" class="dropdown__item-link">Tees/Tank tops</a>
-                <a href="#" class="dropdown__item-link">Shirts/Polos</a>
-                <a href="#" class="dropdown__item-link">Sweaters</a>
-                <a href="#" class="dropdown__item-link">Sweatshirts/Hoodies</a>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
                 <a href="#" class="dropdown__item-link">Blazers</a>
-                <a href="#" class="dropdown__item-link">Jackets/vests</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link">Beauty</a>
+              </div>
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Kinder</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link"
+                  ><img
+                    src="img/drop_img.jpg"
+                    alt="sale-img"
+                    class="super-sale"
+                /></a>
               </div>
             </div>
-            </label>
-            <input
-              id="search"
-              class="nav__left-search"
-              type="search"
-              placeholder="Search for Item..."
-            />
-          </div>
-        </div>
-        <div class="nav__right">
-          <a href="#"><img src="img/basket.png" alt="basket" class="nav__right-basket" /></a>
-          <button class="nav__right-button btn">My Account<i class="fa fa-caret-down" aria-hidden="true"></i></button>
-        </div>
-      </nav>
-      <div class="menu center">
-        <div class="menu__box">
-          <a href="#" class="menu__box-link">Home</a>
-          <a href="#" class="menu__box-link">Man</a>
-          <a href="#" class="menu__box-link">Women</a>
-          <a href="#" class="menu__box-link">Kids</a>
-          <a href="#" class="menu__box-link">Accoseriese</a>
-          <a href="#" class="menu__box-link">Featured</a>
-          <a href="#" class="menu__box-link">Hot Deals</a>
-        </div>
+          </li>
+          <li class="menu__box-list">
+            <a href="#" class="menu__box-link">Man</a>
+            <div class="dropdown-menu">
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Women</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link">Beauty</a>
+              </div>
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Men</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link">Beauty</a>
+              </div>
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Kinder</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link"
+                  ><img
+                    src="img/drop_img.jpg"
+                    alt="sale-img"
+                    class="super-sale"
+                /></a>
+              </div>
+            </div>
+          </li>
+          <li class="menu__box-list">
+            <a href="#" class="menu__box-link">Women</a>
+          </li>
+          <li class="menu__box-list">
+            <a href="#" class="menu__box-link">Kids</a>
+          </li>
+          <li class="menu__box-list">
+            <a href="#" class="menu__box-link">Accoseriese</a>
+          </li>
+          <li class="menu__box-list reverse-menu">
+            <a href="#" class="menu__box-link">Featured</a>
+            <div class="dropdown-menu">
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Women</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link">Beauty</a>
+              </div>
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Men</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link">Beauty</a>
+              </div>
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Kinder</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link"
+                  ><img
+                    src="img/drop_img.jpg"
+                    alt="sale-img"
+                    class="super-sale"
+                /></a>
+              </div>
+            </div>
+          </li>
+          <li class="menu__box-list reverse-menu">
+            <a href="#" class="menu__box-link">Hot Deals</a>
+            <div class="dropdown-menu">
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Women</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link">Beauty</a>
+              </div>
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Men</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link">Beauty</a>
+              </div>
+              <div class="dropdown__item">
+                <h3 class="dropdown__item-title">Kinder</h3>
+                <a href="#" class="dropdown__item-link">Dresses</a>
+                <a href="#" class="dropdown__item-link">Tops</a>
+                <a href="#" class="dropdown__item-link">Sweaters/Knits</a>
+                <a href="#" class="dropdown__item-link">Jackets/Coats</a>
+                <a href="#" class="dropdown__item-link">Blazers</a>
+                <a href="#" class="dropdown__item-link">Denim</a>
+                <a href="#" class="dropdown__item-link">Leggings/Pants</a>
+                <a href="#" class="dropdown__item-link">Skirts/Shorts</a>
+                <a href="#" class="dropdown__item-link">Accessories </a>
+                <a href="#" class="dropdown__item-link">Bags/Purses</a>
+                <a href="#" class="dropdown__item-link">Swimwear/Underwear</a>
+                <a href="#" class="dropdown__item-link">Nightwear</a>
+                <a href="#" class="dropdown__item-link">Shoes</a>
+                <a href="#" class="dropdown__item-link"
+                  ><img
+                    src="img/drop_img.jpg"
+                    alt="sale-img"
+                    class="super-sale"
+                /></a>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -142,5 +397,311 @@
         </article>
       </div>
     </section>
+
+    <section class="product center">
+      <div class="product__header">
+        <h3 class="product__header-title">Fetured Items</h3>
+        <p class="product__header-subtitle">
+          Shop for items based on what we featured in this week
+        </p>
+      </div>
+      <div class="product__items">
+        <div class="product__item">
+          <a href="#" class="product__item-link">
+            <img
+              src="img/product1.jpg"
+              alt="product-img"
+              class="product__item-img"
+            />
+            <div class="product__item-add">
+              <a href="#">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <p>Add to Cart</p>
+              </a>
+            </div>
+            <div class="product__item-box">
+              <h3 class="product__item-title">Mango People T-shirt</h3>
+              <p class="product__item-coast">$52.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product__item">
+          <a href="#" class="product__item-link">
+            <img
+              src="img/product2.jpg"
+              alt="product-img"
+              class="product__item-img"
+            />
+            <div class="product__item-add">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <p>Add to Cart</p>
+            </div>
+            <div class="product__item-box">
+              <h3 class="product__item-title">Mango People T-shirt</h3>
+              <p class="product__item-coast">$52.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product__item">
+          <a href="#" class="product__item-link">
+            <img
+              src="img/product3.jpg"
+              alt="product-img"
+              class="product__item-img"
+            />
+            <div class="product__item-add">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <p>Add to Cart</p>
+            </div>
+            <div class="product__item-box">
+              <h3 class="product__item-title">Mango People T-shirt</h3>
+              <p class="product__item-coast">$52.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product__item">
+          <a href="#" class="product__item-link">
+            <img
+              src="img/product4.jpg"
+              alt="product-img"
+              class="product__item-img"
+            />
+            <div class="product__item-add">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <p>Add to Cart</p>
+            </div>
+            <div class="product__item-box">
+              <h3 class="product__item-title">Mango People T-shirt</h3>
+              <p class="product__item-coast">$52.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product__item">
+          <a href="#" class="product__item-link">
+            <img
+              src="img/product1.jpg"
+              alt="product-img"
+              class="product__item-img"
+            />
+            <div class="product__item-add">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <p>Add to Cart</p>
+            </div>
+            <div class="product__item-box">
+              <h3 class="product__item-title">Mango People T-shirt</h3>
+              <p class="product__item-coast">$52.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product__item">
+          <a href="#" class="product__item-link">
+            <img
+              src="img/product2.jpg"
+              alt="product-img"
+              class="product__item-img"
+            />
+            <div class="product__item-add">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <p>Add to Cart</p>
+            </div>
+            <div class="product__item-box">
+              <h3 class="product__item-title">Mango People T-shirt</h3>
+              <p class="product__item-coast">$52.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product__item">
+          <a href="#" class="product__item-link">
+            <img
+              src="img/product3.jpg"
+              alt="product-img"
+              class="product__item-img"
+            />
+            <div class="product__item-add">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <p>Add to Cart</p>
+            </div>
+            <div class="product__item-box">
+              <h3 class="product__item-title">Mango People T-shirt</h3>
+              <p class="product__item-coast">$52.00</p>
+            </div>
+          </a>
+        </div>
+        <div class="product__item">
+          <a href="#" class="product__item-link">
+            <img
+              src="img/product4.jpg"
+              alt="product-img"
+              class="product__item-img"
+            />
+            <div class="product__item-add">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <p>Add to Cart</p>
+            </div>
+            <div class="product__item-box">
+              <h3 class="product__item-title">Mango People T-shirt</h3>
+              <p class="product__item-coast">$52.00</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="product__button">
+        <a href="#" class="nav__right-button btn">
+          Browse All Product<i
+            class="fa fa-long-arrow-right"
+            aria-hidden="true"
+          ></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="offer center">
+      <div class="offer__box">
+        <img src="img/offer.jpg" alt="offer-img" class="offer__box-img" />
+        <div class="offer__box-text">
+          <h3>30% <span>OFFER</span></h3>
+          <h4>FOR WOMEN</h4>
+        </div>
+        <div class="feature__items">
+          <div class="feature__item">
+            <img
+              src="img/forma1.png"
+              alt="forma-img"
+              class="feature__item-img"
+            />
+            <div class="feature__item-text">
+              <h5>Free Delivery</h5>
+              <p>
+                Worldwide delivery on all. Authorit tively morph next-generation
+                innov tion with extensive models.
+              </p>
+            </div>
+          </div>
+          <div class="feature__item">
+            <img
+              src="img/forma2.png"
+              alt="forma-img"
+              class="feature__item-img"
+            />
+            <div class="feature__item-text">
+              <h5>Sales & discounts</h5>
+              <p>
+                Worldwide delivery on all. Authorit tively morph next-generation
+                innov tion with extensive models.
+              </p>
+            </div>
+          </div>
+          <div class="feature__item">
+            <img
+              src="img/forma3.png"
+              alt="forma-img"
+              class="feature__item-img"
+            />
+            <div class="feature__item-text">
+              <h5>Quality assurance</h5>
+              <p>
+                Worldwide delivery on all. Authorit tively morph next-generation
+                innov tion with extensive models.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe center-fluid">
+      <div class="subscribe__box center">
+        <div class="subscribe__box-left">
+          <figure class="subscribe__item">
+            <img
+              src="img/figure_img.png"
+              alt="subscribe-img"
+              class="subscribe__item-img"
+            />
+            <div class="subscribe__item-text">
+              <p class="subscribe-title">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                pulvinar purus condimentum a. Aliquam condimentum mattis neque
+                sed pretium”
+              </p>
+              <p class="subscribe-author">Bin Burhan</p>
+              <p class="subscribe-town">Dhaka, Bd</p>
+              <div class="subscribe-indicators">
+                <button type="button"></button>
+                <button type="button" class="active"></button>
+                <button type="button"></button>
+              </div>
+            </div>
+          </figure>
+        </div>
+        <div class="subscribe__box-right">
+          <h3>Subscribe</h3>
+          <p>FOR OUR NEWLETTER AND PROMOTION</p>
+          <div class="subscribe__blockinput">
+            <input
+              class="subscribe-input"
+              type="email"
+              placeholder="Enter Your Email"
+            />
+            <button class="subscribe-button" type="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__top center">
+        <div class="footer__top-item">
+          <div class="block-banner">
+            <a href="#">
+              <img src="img/baner.png" alt="baner" class="nav__left-baner" />
+            </a>
+            <div class="nav__left-title">bran<span>d</span></div>
+          </div>
+          <p>
+            Objectively transition extensive data rather than cross functional
+            solutions. Monotonectally syndicate multidisciplinary materials
+            before go forward benefits. Intrinsicly syndicate an expanded array
+            of processes and cross-unit partnerships.
+          </p>
+          <p>
+            Efficiently plagiarize 24/365 action items and focused
+            infomediaries. Distinctively seize superior initiatives for wireless
+            technologies. Dynamically optimize.
+          </p>
+        </div>
+        <div class="footer__top-item">
+          <h4 class="footer__top-title">COMPANY</h4>
+          <a href="#" class="footer__top-link">Home</a>
+          <a href="#" class="footer__top-link">Shop</a>
+          <a href="#" class="footer__top-link">About</a>
+          <a href="#" class="footer__top-link">How It Works</a>
+          <a href="#" class="footer__top-link">Contact</a>
+        </div>
+        <div class="footer__top-item">
+          <h4 class="footer__top-title">INFORMATION</h4>
+          <a href="#" class="footer__top-link">Tearms & Condition</a>
+          <a href="#" class="footer__top-link">Privacy Policy</a>
+          <a href="#" class="footer__top-link">How to Buy</a>
+          <a href="#" class="footer__top-link">How to Sell</a>
+          <a href="#" class="footer__top-link">Promotion</a>
+        </div>
+        <div class="footer__top-item">
+          <h4 class="footer__top-title">SHOP CATEGORY</h4>
+          <a href="#" class="footer__top-link">Men</a>
+          <a href="#" class="footer__top-link">Women</a>
+          <a href="#" class="footer__top-link">Child</a>
+          <a href="#" class="footer__top-link">Apparel</a>
+          <a href="#" class="footer__top-link">Brows All</a>
+        </div>
+      </div>
+      <div class="footer__down center-fluid">
+        <div class="center">
+          <p>© 2017  Brand  All Rights Reserved.</p>
+          <div class="block-icon">
+
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

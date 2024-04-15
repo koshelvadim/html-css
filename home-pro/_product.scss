@@ -1,0 +1,132 @@
+.product {
+    
+    &__header {
+        @include d-flex;
+        flex-direction: column;
+
+        &-title {
+            font-size: 30px;
+            line-height: 25px;
+            font-weight: 700;
+            letter-spacing: 0.025em;
+            color: #222222;
+            margin-bottom: 16px;
+        }
+
+        &-subtitle {
+            font-size: 14px;
+            line-height: 10px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: #9f9f9f;
+            margin-bottom: 59px;
+        }
+    }
+
+    &__items {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: repeat(4, 1fr);
+        margin-bottom: 65px;
+    }
+
+    &__item {
+        
+
+        &-link {
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+            
+        }
+
+        &-link:hover {
+            box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        &-link:hover > img {
+            filter: brightness(40%);
+        }
+
+        &-link:hover > .product__item-add {
+            display: flex;
+        }
+
+        &-img {
+            // width: 100%;
+            @include transition;
+        }
+
+        &-add {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.0);
+            border: 1px solid #ffffff;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            @include transition;
+
+            & i {
+                color: #ffffff;
+                padding: 8px;
+                padding-right: 0;
+                @include transition;
+            }
+
+            & p {
+                font-size: 13px;
+                line-height: 1.2;
+                font-weight: 700;
+                color: #ffffff;
+                padding: 8px;
+                @include transition;
+            }
+
+        }
+
+        &-add:hover i {
+            color: $colorButton;
+        }
+
+        &-add:hover p {
+            color: $colorButton;
+        }
+
+        &-add:hover {
+            border: 1px solid $colorButton;
+        }
+
+        &-box {
+           padding: 20px; 
+        }
+
+        &-title {
+            font-size: 13px;
+            line-height: 1.2;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #222222;
+            margin-bottom: 17px;
+        }
+
+        &-coast {
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #f16d7f;
+        }
+    }
+
+    &__button {
+        @include d-flex;
+        margin-bottom: 113px;
+
+        & i {
+            margin-left: 8px;
+        }
+    }
+}
