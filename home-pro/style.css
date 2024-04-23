@@ -837,21 +837,31 @@ body {
 }
 
 .products__pagination {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 100px;
+  display: inline-block;
+  width: 100%;
+}
+
+.nav__pagination {
+  display: inline-block;
+}
+
+.nav__right-button {
+  float: right;
 }
 
 @supports (display: flex) {
   .products__pagination {
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
   }
-  .nav__pagination {
-    display: inline-block;
-  }
-  .nav__right-button {
-    float: right;
+}
+@supports (display: grid) {
+  .products__pagination {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: end;
+    margin-bottom: 100px;
   }
 }
 .pagination {
