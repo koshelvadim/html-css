@@ -11,11 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
     <!-- my style -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
     <header class="header bg-header">
       <div class="header-box center">
         <nav class="header__top">
@@ -50,15 +51,10 @@
           </div>
         </nav>
         <div class="header__search">
-             <input
-          class="search"
-          type="search"
-          placeholder="Find it here..."
-        />
+          <input class="search" type="search" placeholder="Find it here..." />
         </div>
-       
-        <nav class="header__down">
 
+        <nav class="header__down">
           <a href="" class="header__logo">
             <img
               src="img/header_logo.png"
@@ -83,7 +79,7 @@
                 <a href="#">Books</a>
               </li>
               <li class="header__down-link">
-                <a href="#">At Home</a>
+                <a href="#">At&nbsp;Home</a>
               </li>
               <li class="header__down-link">
                 <a href="#">Music</a>
@@ -93,11 +89,58 @@
               </li>
             </ul>
           </div>
-
         </nav>
       </div>
     </header>
 
+    <div class="slider bg-slider">
+      <div class="slider__item">
+        <h5>Check your</h5>
+        <h1>autumn style</h1>
+        <h3>All the trends you need this season</h3>
+        <div class="slider__item-text">
+          <a href="#">read it now</a>
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+      </div>
+      <button class="slider__control-prev">
+        <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+      </button>
+      <button class="slider__control-next">
+        <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+      </button>
+    </div>
 
+    <section class="advertising center">
+      <div class="advertising__item">
+        <button class="slider__control-prev">
+          <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+        </button>
+        <button class="slider__control-next">
+          <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+        </button>
+        <div class="item__1">
+          <h4 class="item__1-title">exclusive</h4>
+          <h4 class="item__1-subtitle">discount codes & offers</h4>
+        </div>
+        <p class="item__1-text">get your discount</p>
+      </div>
+      <div class="advertising__item">
+        <div class="item__2">
+          <p class="item__2-paragraph">the</p>
+          <h4 class="item__2-title">hottest styles</h4>
+          <h4 class="item__2-subtitle">are here</h4>
+        </div>
+        <div class="item__2-down">
+          <p>watch now</p>
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        
+      </div>
+      <div class="advertising__item">3</div>
+      <div class="advertising__item">4</div>
+      <div class="advertising__item">5</div>
+      <div class="advertising__item">6</div>
+    </section>
   </body>
 </html>
